@@ -42,5 +42,5 @@ Build a relational database with the following core tables:
   - Test the database with analytical queries.
 
 ---
-
+ERD link: https://drive.google.com/file/d/1AxMMZ81ODtDKFL6BvDQk641cLS9qSd4q/view?usp=sharing
 
