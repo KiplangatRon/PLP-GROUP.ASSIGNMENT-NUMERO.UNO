@@ -1,4 +1,4 @@
-USE bookstore;
+-- USE bookstore;
 -- ADMIN PRIVILEGES
 GRANT ALL PRIVILEGES ON bookstore.* TO 'admin';
 -- GRANT PERMISSIONS TO USERS(staff)
@@ -26,5 +26,5 @@ GRANT SELECT ON bookstore.order_status TO 'customer_support';
 GRANT SELECT ON bookstore.shipping_method TO 'customer_support';
 GRANT SELECT ON bookstore.country TO 'customer_support';
 GRANT SELECT ON bookstore.address_status TO 'customer_support';
-GRANT SELECT ON bookstore6.order_line TO 'customer_support';
+GRANT SELECT ON bookstore.order_line TO 'customer_support';
 
